@@ -31,7 +31,7 @@ public class VM {
                 tape.Decrement();
                 break;
             case INPUT:
-                System.out.println("INPUT NOT YET SUPPORTED!");
+                tape.Set(System.in.read());
                 break;
             case OUTPUT:
                 System.out.print((char)tape.Read());

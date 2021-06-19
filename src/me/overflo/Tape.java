@@ -38,4 +38,8 @@ public class Tape {
     public int Read () {
         return cells.get(ptr);
     }
+
+    public void Set (int value) {
+        cells.set(ptr, value);
+    }
 }
